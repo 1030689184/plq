@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CYThirdCell">
+            <rect key="frame" x="0.0" y="0.0" width="470" height="69"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="470" height="69"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRv-Qi-36p">
+                        <rect key="frame" x="121" y="3" width="113" height="66"/>
+                        <color key="backgroundColor" red="0.41880769188081912" green="1" blue="0.32241408699318386" alpha="1" colorSpace="calibratedRGB"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ti-Bp-HZm">
+                        <rect key="frame" x="237" y="3" width="112" height="66"/>
+                        <color key="backgroundColor" red="0.40239602713285916" green="1" blue="0.28571750203514468" alpha="1" colorSpace="calibratedRGB"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0P-0r-3DT">
+                        <rect key="frame" x="352" y="3" width="113" height="66"/>
+                        <color key="backgroundColor" red="0.41674364995391455" green="1" blue="0.28684421879675359" alpha="1" colorSpace="calibratedRGB"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHI-Dh-YeK">
+                        <rect key="frame" x="5" y="3" width="113" height="66"/>
+                        <color key="backgroundColor" red="0.4521870334404513" green="1" blue="0.37208924747003547" alpha="1" colorSpace="calibratedRGB"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="YRv-Qi-36p" firstAttribute="height" secondItem="tHI-Dh-YeK" secondAttribute="height" id="1fJ-BI-6eQ"/>
+                <constraint firstAttribute="bottom" secondItem="I0P-0r-3DT" secondAttribute="bottom" id="6xJ-W8-Lq8"/>
+                <constraint firstAttribute="bottom" secondItem="YRv-Qi-36p" secondAttribute="bottom" id="8iP-lP-xMX"/>
+                <constraint firstItem="6ti-Bp-HZm" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="8vU-fc-PiI"/>
+                <constraint firstItem="YRv-Qi-36p" firstAttribute="width" secondItem="tHI-Dh-YeK" secondAttribute="width" id="AaK-yq-RRL"/>
+                <constraint firstItem="tHI-Dh-YeK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="Bi6-yz-YH7"/>
+                <constraint firstItem="6ti-Bp-HZm" firstAttribute="height" secondItem="tHI-Dh-YeK" secondAttribute="height" id="JRC-vl-KRI"/>
+                <constraint firstAttribute="bottom" secondItem="6ti-Bp-HZm" secondAttribute="bottom" id="JYe-ni-sLs"/>
+                <constraint firstItem="tHI-Dh-YeK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="Qrz-mT-fTW"/>
+                <constraint firstItem="I0P-0r-3DT" firstAttribute="leading" secondItem="6ti-Bp-HZm" secondAttribute="trailing" constant="3" id="SJQ-iY-G7B"/>
+                <constraint firstAttribute="bottom" secondItem="tHI-Dh-YeK" secondAttribute="bottom" id="VWO-ub-Zoq"/>
+                <constraint firstItem="I0P-0r-3DT" firstAttribute="width" secondItem="tHI-Dh-YeK" secondAttribute="width" id="cHK-uk-NZF"/>
+                <constraint firstItem="YRv-Qi-36p" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="fJo-D5-hSj"/>
+                <constraint firstItem="YRv-Qi-36p" firstAttribute="leading" secondItem="tHI-Dh-YeK" secondAttribute="trailing" constant="3" id="fto-ed-3xo"/>
+                <constraint firstItem="I0P-0r-3DT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="peM-92-fKb"/>
+                <constraint firstItem="6ti-Bp-HZm" firstAttribute="width" secondItem="tHI-Dh-YeK" secondAttribute="width" id="q0m-GB-ZLa"/>
+                <constraint firstItem="I0P-0r-3DT" firstAttribute="height" secondItem="tHI-Dh-YeK" secondAttribute="height" id="tfl-yG-aqp"/>
+                <constraint firstAttribute="trailing" secondItem="I0P-0r-3DT" secondAttribute="trailing" constant="5" id="ufS-Nf-o6c"/>
+                <constraint firstItem="6ti-Bp-HZm" firstAttribute="leading" secondItem="YRv-Qi-36p" secondAttribute="trailing" constant="3" id="zNu-VB-N5T"/>
+            </constraints>
+            <size key="customSize" width="470" height="69"/>
+            <connections>
+                <outlet property="bookButton" destination="YRv-Qi-36p" id="ETc-kw-iqb"/>
+                <outlet property="marketButton" destination="tHI-Dh-YeK" id="FDD-0r-Ser"/>
+                <outlet property="moreButton" destination="I0P-0r-3DT" id="Udy-Ke-bEd"/>
+                <outlet property="travelButton" destination="6ti-Bp-HZm" id="MTP-kF-g0e"/>
+            </connections>
+            <point key="canvasLocation" x="320" y="314.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
