@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CYFourCell">
+            <rect key="frame" x="0.0" y="0.0" width="253" height="162"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="253" height="162"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3y-86-PWc">
+                        <rect key="frame" x="3" y="3" width="122" height="77"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naG-wD-rAa">
+                        <rect key="frame" x="128" y="3" width="122" height="77"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05Y-DE-qdE">
+                        <rect key="frame" x="3" y="83" width="122" height="76"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCB-0t-Oc9">
+                        <rect key="frame" x="128" y="83" width="122" height="76"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="lCB-0t-Oc9" firstAttribute="width" secondItem="K3y-86-PWc" secondAttribute="width" id="0ES-CP-0vB"/>
+                <constraint firstItem="naG-wD-rAa" firstAttribute="leading" secondItem="K3y-86-PWc" secondAttribute="trailing" constant="3" id="3zE-Qm-Fsz"/>
+                <constraint firstItem="naG-wD-rAa" firstAttribute="width" secondItem="K3y-86-PWc" secondAttribute="width" id="56u-YL-bGx"/>
+                <constraint firstItem="lCB-0t-Oc9" firstAttribute="leading" secondItem="05Y-DE-qdE" secondAttribute="trailing" constant="3" id="5Jp-Pb-9R8"/>
+                <constraint firstItem="05Y-DE-qdE" firstAttribute="height" secondItem="K3y-86-PWc" secondAttribute="height" id="8hB-jy-dkR"/>
+                <constraint firstItem="lCB-0t-Oc9" firstAttribute="height" secondItem="K3y-86-PWc" secondAttribute="height" id="ACC-K6-isZ"/>
+                <constraint firstItem="naG-wD-rAa" firstAttribute="height" secondItem="K3y-86-PWc" secondAttribute="height" id="Agj-gQ-OA0"/>
+                <constraint firstItem="05Y-DE-qdE" firstAttribute="top" secondItem="K3y-86-PWc" secondAttribute="bottom" constant="3" id="CcP-nd-4Tl"/>
+                <constraint firstItem="lCB-0t-Oc9" firstAttribute="top" secondItem="naG-wD-rAa" secondAttribute="bottom" constant="3" id="Hmf-zG-47h"/>
+                <constraint firstAttribute="bottom" secondItem="05Y-DE-qdE" secondAttribute="bottom" constant="3" id="QHO-S9-qqN"/>
+                <constraint firstAttribute="trailing" secondItem="lCB-0t-Oc9" secondAttribute="trailing" constant="3" id="XUg-gG-maM"/>
+                <constraint firstItem="K3y-86-PWc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="Ys0-fp-Mr4"/>
+                <constraint firstItem="naG-wD-rAa" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="hwk-Oa-pbj"/>
+                <constraint firstItem="K3y-86-PWc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="kGB-S9-dUD"/>
+                <constraint firstAttribute="trailing" secondItem="naG-wD-rAa" secondAttribute="trailing" constant="3" id="lbP-ae-oKE"/>
+                <constraint firstItem="05Y-DE-qdE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="qdO-mz-zRo"/>
+                <constraint firstItem="05Y-DE-qdE" firstAttribute="width" secondItem="K3y-86-PWc" secondAttribute="width" id="soo-Vn-fHv"/>
+                <constraint firstAttribute="bottom" secondItem="lCB-0t-Oc9" secondAttribute="bottom" constant="3" id="xid-UZ-NbV"/>
+            </constraints>
+            <size key="customSize" width="253" height="162"/>
+            <connections>
+                <outlet property="firstBtb" destination="K3y-86-PWc" id="2o8-qS-qPd"/>
+                <outlet property="fourBtn" destination="lCB-0t-Oc9" id="v0X-vo-DZ5"/>
+                <outlet property="secondBtn" destination="naG-wD-rAa" id="aag-X8-NTa"/>
+                <outlet property="thirdBtn" destination="05Y-DE-qdE" id="RId-5p-gfu"/>
+            </connections>
+            <point key="canvasLocation" x="440.5" y="431"/>
+        </collectionViewCell>
+    </objects>
+</document>
